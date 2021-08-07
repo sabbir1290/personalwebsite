@@ -4,15 +4,10 @@ $(document).ready(function(){
             $('.navbar1').addClass("sticky")
         }else{
             $('.navbar1').removeClass("sticky")
-        }
-      
-      
+        } 
     });
 
     // slide-up script
-  
-
-
 
 //     tooggle menu baton
 
@@ -37,5 +32,14 @@ var typed = new Typed('.text', {
     backSpeed: 60,
     loop:true
     });
+    
+    const toTop = document.querySelector(".toTop");
 
+    window.addEventListener("scroll", () => {
+        if(window.pageYOffset > 300){
+            toTop.classList.add("active")
+        }else{
+            toTop.classList.remove("active")
+        }
+    })
    
