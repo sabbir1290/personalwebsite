@@ -906,6 +906,13 @@ footer span a:hover{
      transition: all 0.3s ease;
      padding: 2px 2px;
 } 
+    footer{
+    background: #111;
+    padding: 18px 20px;
+    color: #ffff;
+    text-align: center;
+    font-size: 12px;
+} 
 
 
 }
@@ -1188,6 +1195,14 @@ footer span a:hover{
      transition: all 0.3s ease;
   
 }
+    footer{
+    background: #111;
+    padding: 13px 18px;
+    color: #ffff;
+    text-align: center;
+    font-size: 10px;
+} 
+
 
 
 }
@@ -1339,6 +1354,14 @@ footer span a:hover{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+    footer{
+    background: #111;
+    padding: 13px 18px;
+    color: #ffff;
+    text-align: center;
+    font-size: 9px;
+} 
+
 
 
 }
